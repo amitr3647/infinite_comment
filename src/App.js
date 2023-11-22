@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Comment from "./components/comment.js";
 import { commentData } from "./utils/commentData";

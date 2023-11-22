@@ -3,7 +3,7 @@ const useFunctions = ()=> {
 
 const addComment = (tree, commentId, newComment)=> {
 console.log('tree before ',tree , commentId, newComment )
-    if(tree.id == commentId){
+    if(tree.id === commentId){
 tree.reply.unshift(newComment);
 return tree;
     }
